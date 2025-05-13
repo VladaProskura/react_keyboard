@@ -21,7 +21,7 @@ export class App extends React.Component<{}, State> {
     document.removeEventListener('keyup', this.handleKeyPress);
   }
 
-  render(): React.ReactNode {
+  render() {
     const { pressedKey } = this.state;
 
     return (
